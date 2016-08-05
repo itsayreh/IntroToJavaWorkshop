@@ -14,7 +14,8 @@ public class StephenHawking {
 	// 4. repeat steps 2 and 3 a lot of times
 		for (int i = 0; i < 1; i++) {
 			// 2. ask the user for a sentence
-			string answer = JOptionPane.showInputDialog("anwser the question");
+			String answer = JOptionPane.showInputDialog("anwser the question");
+			JOptionPane.showMessageDialog(null, answer);
 			
 		// 3. call the speak method below and send it the sentence
 			speak(answer);
